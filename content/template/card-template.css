@@ -320,16 +320,48 @@ footer{
 }
 
 
-
+.movie-banner {
+    position: absolute;
+    width: 100%;
+    max-height: 91vh;
+    z-index: -1;
+}
 
 .movie-banner img {
     width: 100%;
     max-height: 91vh;
     object-fit: cover;
-    position: absolute;
+    position: relative;
     z-index: -2;
 }
 
+.movie-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgb(18, 22, 32), rgba(18, 22, 32, 0)),
+                linear-gradient(to right, rgba(18, 22, 32, 0.582), rgba(18, 22, 32, 0));
+    z-index: -1;
+    pointer-events: none;
+}
+
+.about-movie-content {
+    position: relative;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin-left: 50px;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+}
 
 .content{
     width: 100%;
@@ -365,6 +397,17 @@ footer{
         width: 153px;
     }
     
+    .movie-credits {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .movie-credits p {
+        text-align: center;
+        padding: 0px 10%;
+    }
 
 }
 
@@ -400,6 +443,7 @@ footer{
     color: white;
     font-size: 20px;
     font-family: 'Figtree', sans-serif;
+    max-width: 750px;
 }
 
 .page{
@@ -407,6 +451,16 @@ footer{
     width: 100%;
 }
 
+
+.movie-credits {
+    margin-top: 10px;
+}
+
+.movie-credits p {
+    font-family: 'Figtree', sans-serif;
+    color: rgb(214, 214, 214);
+    font-size: 12px;
+}
 
 .cr{
     margin-top: 10px;

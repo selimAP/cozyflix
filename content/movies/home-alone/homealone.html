@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
-    <link rel="stylesheet" href="card-template.css">
-    <link rel="stylesheet" href="../../../images/Logos/Cozy-logo-small-transparent.png">
+    <title>Cozyflix | Home Alone</title>
+    <link rel="stylesheet" href="../../template/card-template.css">
+    <link rel="icon" href="../../../images/Logos/Cozy-logo-small-transparent.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,13 +18,12 @@
         <nav class="navbar">
             <ul class="navmenu">
                 <div class="logo">
-                    <a href="#" class="navlogo"><img src="../../images/Logos/Cozy-logo-transparent-landscape.png" alt=""></a>
+                    <a href="../../../" class="navlogo"><img src="../../../images/Logos/Cozy-logo-transparent-landscape.png" alt="cozyflix navbar logo"></a>
                 </div>
-                <li class="navitem"><a href="#" class="navlink"><ion-icon class="icon" name="home-outline"></ion-icon><span>HOME</span></a></li>
-                <li class="navitem"><a href="#" class="navlink"><ion-icon class="icon" name="search-outline"></ion-icon><span>SEARCH</span></a></li>
+                <li class="navitem"><a href="../../../" class="navlink"><ion-icon class="icon" name="home-outline"></ion-icon><span>HOME</span></a></li>
             </ul>
             <div class="profile" onclick="menuToggle()">
-                <img src="../../images/image/Profile_icon.jpg" alt="">
+                <img src="../../../images/image/Profile_icon.jpg" alt="">
             </div>
 
             <div class="sub-menu-wrap" id="subMenu">
@@ -35,7 +34,7 @@
                     <hr>
                     <a href="../Profil/profil.html" class="sub-menu-link"><ion-icon name="person-circle-outline"></ion-icon><p>Profile</p><span>></span></a>
                     <a href="#" class="sub-menu-link"><ion-icon name="settings-outline"></ion-icon><p>Settings</p><span>></span></a>
-                    <a href="mailto: hello@selimafat.com" class="sub-menu-link"><ion-icon name="help-circle-outline"></ion-icon><p>Help & Support</p><span>></span></a>
+                    <a href="mailto:" class="sub-menu-link"><ion-icon name="help-circle-outline"></ion-icon><p>Help & Support</p><span>></span></a>
                     <a onclick="subMenuAlert()" href="#" class="sub-menu-link"><ion-icon name="log-out-outline"></ion-icon><p>Logout</p><span>></span></a>
                 </div>
             </div>
@@ -48,24 +47,26 @@
 
             <div class="content">
                 <div class="movie-banner">
-                    <img src="../../Bibliothek/backgrounds/Prisonbreak-background.webp" alt="">
+                    <img src="../../../images/content-images/home-alone.png" alt="movie/serie background image">
                 </div>
                 <div class="about-movie-content">
                     <div class="movie-logo">
-                        <img src="../../Bibliothek/logos/prisonbreak-logo.png" alt="">
+                        <img src="../../../images/content-images/home-alone-logo.png" alt="Movie/Serie Logo">
                     </div>
                     <div class="info">
-                        <small>2005-2017 | 5 seasons | Drama, Action</small>
+                        <small>1990 | 1h 43m | Comedy, Family</small>
                     </div>
                     <div class="buttons">
-                        <button class="trailer-button" onclick="window.open('https://www.youtube.com/watch?v=b9Uz2GBP8jY&t=1s', '_blank');">Trailer</button>
+                        <button class="trailer-button" onclick="window.open('https://youtu.be/jEDaVHmw7r4?si=gDaHrDW1o6DGqH17', '_blank');">Trailer</button>
                     </div>
                     <div class="description">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
-                             Neque quisquam quis aperiam autem sequi alias expedita molestiae <br>
-                              maxime sed, commodi voluptate sunt! Cupiditate dolore accusantium <br>
-                               illum, eius consequuntur quis porro.</p>
-                    </div> 
+                        <p>Eight-year-old Kevin McCallister (Macaulay Culkin) is accidentally left home alone when his family goes on a Christmas vacation. Initially thrilled to have the house to himself, Kevin soon discovers that two bumbling burglars, Harry (Joe Pesci) and Marv (Daniel Stern), are planning to rob his home. Using his wit and an array of booby traps, Kevin must defend his house and outsmart the burglars while rediscovering the true spirit of family and Christmas.</p>
+                    </div>
+                    <div class="movie-credits">
+                        <p><strong>Director:</strong> Chris Columbus</p>
+                        <p><strong>Writer:</strong> John Hughes</p>
+                        <p><strong>Starring:</strong> Macaulay Culkin, Joe Pesci, Daniel Stern, Catherine O'Hara, John Heard</p>
+                      </div>                      
                     <div class="cr">
                         <small>© 20th Television</small>
                     </div>
@@ -86,7 +87,7 @@
     </footer>
         
 
-    <script src="card-template.js"></script>
+    <script src="../../template/card-template.js"></script>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
