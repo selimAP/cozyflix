@@ -8,33 +8,6 @@ window.addEventListener("scroll", function(){
 });
 
 
-// sub-menu open function
-let subMenu = document.getElementById('subMenu');
-
-function menuToggle(){
-    subMenu.classList.toggle('menu-open');
-}
-
-
-const headerContainer = document.getElementById('headerContainer');
-fetch('header.html')
-    .then(response => response.text())
-    .then(data => {
-        headerContainer.innerHTML = data;
-});
-
-
-const footerContainer = document.getElementById('footerContainer');
-fetch('footer.html')
-    .then(response => response.text())
-    .then(data => {
-        footerContainer.innerHTML = data;
-});
-
-function subMenuAlert(){
-    alert("Don't go away 🙃");
-}
-
 
 //Search function
 
