@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <footer>
             <div class="main-footer">
                 <div class="footer-logo">
-                    <img src="../../images/Logos/Cozy-logo-transparent-landscape.png" alt="Logo">
+                    <img src="../../../images/Logos/Cozy-logo-transparent-landscape.png" alt="Logo">
                 </div>
                 <p>
                     <a href="#">GitHub</a> | <a href="#">Contribute</a> | <a href="#">Contact</a>
