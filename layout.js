@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <p>Cozyflix is not affiliated with Netflix or any other streaming service or film studio.</p>
                 <p>
                     Built and designed by
-                    <a id="footer-link" href="">Selim Afat</a>
+                    <a id="footer-link" href="">selimAP</a>
                 </p>
             </div>
         </footer>
